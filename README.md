@@ -32,14 +32,14 @@ El repo está dividido en 7 laboratorios, desarrollados íntegramente en C:
 
 **Clonar el repositorio:**
 ```bash
-    git clone https://github.com/lazacugat/Algoritmos-II.git
-    cd Algoritmos-II
+git clone https://github.com/lazacugat/Algoritmos-II.git
+cd Algoritmos-II
 ```
 
 **Compilar un laboratorio:**
 ```bash
-    cd lab05
-    make
+cd lab05
+make
 ```
 
 **Ejecutar y chequear fugas de memoria:**
@@ -50,5 +50,5 @@ valgrind --leak-check=full ./app
 
 **Limpiar binarios:**
 ```bash
-    make clean
+make clean
 ```
