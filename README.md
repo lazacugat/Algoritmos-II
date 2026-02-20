@@ -23,7 +23,6 @@ El repo está dividido en 7 laboratorios, desarrollados íntegramente en C:
 ## 🛠️ Requisitos
 
 * [GCC](https://gcc.gnu.org/) - Compilador C
-* [MAKE](https://www.gnu.org/software/make/) - Automatización
 * [VALGRIND](https://valgrind.org/) - Análisis de memoria
 
 ---
@@ -51,4 +50,5 @@ valgrind --leak-check=full ./app
 **Limpiar binarios:**
 ```bash
 make clean
+
 ```
